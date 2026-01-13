@@ -9,12 +9,7 @@ public class AnanthController {
 
    @GetMapping("/hello") 
    public String Hello() {
-        return "Helloo, Ananth!";
-   } 
-
-   @GetMapping("/login") 
-   public String home() {
-        return "login";
+        return "Hello, Ananth!";
    } 
     
 }
